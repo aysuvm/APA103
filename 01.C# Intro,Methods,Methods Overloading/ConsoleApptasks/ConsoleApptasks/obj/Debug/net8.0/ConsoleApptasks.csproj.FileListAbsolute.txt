@@ -1,4 +1,0 @@
-C:\Users\aysum\OneDrive\Desktop\APA103\task\ConsoleApptasks\ConsoleApptasks\obj\Debug\net8.0\ConsoleApptasks.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\aysum\OneDrive\Desktop\APA103\task\ConsoleApptasks\ConsoleApptasks\obj\Debug\net8.0\ConsoleApptasks.AssemblyInfoInputs.cache
-C:\Users\aysum\OneDrive\Desktop\APA103\task\ConsoleApptasks\ConsoleApptasks\obj\Debug\net8.0\ConsoleApptasks.AssemblyInfo.cs
-C:\Users\aysum\OneDrive\Desktop\APA103\task\ConsoleApptasks\ConsoleApptasks\obj\Debug\net8.0\ConsoleApptasks.csproj.CoreCompileInputs.cache
