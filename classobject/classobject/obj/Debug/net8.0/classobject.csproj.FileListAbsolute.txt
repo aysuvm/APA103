@@ -1,0 +1,15 @@
+C:\Users\aysum\OneDrive\Desktop\APA103\classobject\classobject\bin\Debug\net8.0\classobject.exe
+C:\Users\aysum\OneDrive\Desktop\APA103\classobject\classobject\bin\Debug\net8.0\classobject.deps.json
+C:\Users\aysum\OneDrive\Desktop\APA103\classobject\classobject\bin\Debug\net8.0\classobject.runtimeconfig.json
+C:\Users\aysum\OneDrive\Desktop\APA103\classobject\classobject\bin\Debug\net8.0\classobject.dll
+C:\Users\aysum\OneDrive\Desktop\APA103\classobject\classobject\bin\Debug\net8.0\classobject.pdb
+C:\Users\aysum\OneDrive\Desktop\APA103\classobject\classobject\obj\Debug\net8.0\classobject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aysum\OneDrive\Desktop\APA103\classobject\classobject\obj\Debug\net8.0\classobject.AssemblyInfoInputs.cache
+C:\Users\aysum\OneDrive\Desktop\APA103\classobject\classobject\obj\Debug\net8.0\classobject.AssemblyInfo.cs
+C:\Users\aysum\OneDrive\Desktop\APA103\classobject\classobject\obj\Debug\net8.0\classobject.csproj.CoreCompileInputs.cache
+C:\Users\aysum\OneDrive\Desktop\APA103\classobject\classobject\obj\Debug\net8.0\classobject.sourcelink.json
+C:\Users\aysum\OneDrive\Desktop\APA103\classobject\classobject\obj\Debug\net8.0\classobject.dll
+C:\Users\aysum\OneDrive\Desktop\APA103\classobject\classobject\obj\Debug\net8.0\refint\classobject.dll
+C:\Users\aysum\OneDrive\Desktop\APA103\classobject\classobject\obj\Debug\net8.0\classobject.pdb
+C:\Users\aysum\OneDrive\Desktop\APA103\classobject\classobject\obj\Debug\net8.0\classobject.genruntimeconfig.cache
+C:\Users\aysum\OneDrive\Desktop\APA103\classobject\classobject\obj\Debug\net8.0\ref\classobject.dll
