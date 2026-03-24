@@ -41,12 +41,12 @@ class Program
         t2.ShowTruckInfo();
         Console.WriteLine("Fuel cost (800 km): " + t2.CalculateFuelCost(800));
 
-        // Load cargo
+      
         Console.WriteLine("oading Cargo ");
         t1.LoadCargo(5);
         Console.WriteLine("New fuel cost (800 km): " + t1.CalculateFuelCost(800));
 
-        // Statistics
+   
         int totalVehicles = 7;
 
         double avgSpeed = (car1.MaxSpeed + car2.MaxSpeed + car3.MaxSpeed +
