@@ -4,16 +4,16 @@ class Program
 {
     static void Main()
     {
-        // Cars
+      
         Car car1 = new Car("Mercedes", "E200", 2023, "10-AA-001", 4, 500, true, 220);
         Car car2 = new Car("BMW", "320i", 2022, "10-BB-002", 4, 480, true, 235);
         Car car3 = new Car("Toyota", "Camry", 2021, "10-CC-003", 4, 524, true, 210);
 
-        // Motorcycles
+       
         Motorcycle m1 = new Motorcycle("Yamaha", "R1", 2023, "10-DD-004", 998, false, 299, "Sport");
         Motorcycle m2 = new Motorcycle("Harley-Davidson", "Cruiser", 2022, "10-EE-005", 1868, true, 180, "Cruiser");
 
-        // Trucks
+      
         Truck t1 = new Truck("MAN", "TGX", 2020, "10-FF-006", 18, 3, 12, 120);
         Truck t2 = new Truck("Volvo", "FH16", 2021, "10-GG-007", 25, 4, 18, 110);
 
