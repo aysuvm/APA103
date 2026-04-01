@@ -1,4 +1,0 @@
-C:\Users\aysum\source\repos\09-UpcastingDowncastingExplicitImplicit\obj\Debug\net8.0\09-UpcastingDowncastingExplicitImplicit.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\aysum\source\repos\09-UpcastingDowncastingExplicitImplicit\obj\Debug\net8.0\09-UpcastingDowncastingExplicitImplicit.AssemblyInfoInputs.cache
-C:\Users\aysum\source\repos\09-UpcastingDowncastingExplicitImplicit\obj\Debug\net8.0\09-UpcastingDowncastingExplicitImplicit.AssemblyInfo.cs
-C:\Users\aysum\source\repos\09-UpcastingDowncastingExplicitImplicit\obj\Debug\net8.0\09-UpcastingDowncastingExplicitImplicit.csproj.CoreCompileInputs.cache
