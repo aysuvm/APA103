@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #f5f0e6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Ümumi konteyner */
+.container {
+    text-align: center;
+}
+
+/* THE */
+.small {
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 5px;
+    color: #a67c2d;
+}
+
+/* Hamilton */
+.main {
+    font-family: 'Great Vibes', cursive;
+    font-size: 120px;
+    color: #222;
+}
+
+/* FONT FAMILY */
+.middle {
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 8px;
+    color: #a67c2d;
+    margin-top: 10px;
+}
+
+/* SCRIPT, SERIF */
+.sub {
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 6px;
+    margin-top: 10px;
+}
+
+/* Aşağı yazı */
+.bottom {
+    font-family: 'Great Vibes', cursive;
+    font-size: 30px;
+    color: #a67c2d;
+    margin-top: 20px;
+}
