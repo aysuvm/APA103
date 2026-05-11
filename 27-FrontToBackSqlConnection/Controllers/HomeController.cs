@@ -4,6 +4,7 @@ using _27_FrontToBackSqlConnection.Services;
 using _27_FrontToBackSqlConnection.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
+using System.IO.Pipes;
 
 namespace _27_FrontToBackSqlConnection.Controllers
 {
@@ -52,7 +53,7 @@ Title = "Basliq-1", Subtitle = "Komekci basliq-1", Description = "Gullerden qalm
 
             List<Product> products = _context.Products
     .Where(p => !p.IsDeleted)
-    .Include(p => p.ProductImages)
+    .Include(p => p.ProductImages.Where (pi=>pi.isPrimary !=null))
     .ToList();
 
 
