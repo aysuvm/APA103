@@ -10,10 +10,13 @@ builder.Services.AddDbContext<AppDbContext>(opt =>
 });
 
 
-
 var app = builder.Build();
 
 app.UseStaticFiles();
+
+app.MapControllerRoute(
+    name: "default",
+    pattern: "{controller=Home}/{action=Index}/{id?}");
 
 app.MapControllerRoute(
     name: "default",
