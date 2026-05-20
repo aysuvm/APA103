@@ -1,4 +1,5 @@
-﻿using Furnish.Areas.AdminPanel.Models.Category;
+﻿using FrontToBack.Models;
+using Furnish.Areas.AdminPanel.Models.Category;
 using Furnish.Data;
 using Furnish.Models;
 using Microsoft.AspNetCore.Mvc;
@@ -35,9 +36,29 @@ namespace Furnish.Areas.AdminPanel.Controllers
             {
                 Name = vm.NameVM
             };
+
+            List<ProductTag> deleteTags = existProduct.ProductTags
+    .Where(pTag => !productUpdateVM.TagIds
+        .Exists(tId => tId == pTag.TagId)).ToList();
+
+            List<int> createdTags = productUpdateVM.TagIds
+    .Where(tId => !existProduct.ProductTags.Exists(pTag => pTag.TagId == tId)).ToList();
+
+
+            _context.ProductTags.RemoveRange(deleteTags);
+
+            existProduct.Name = productUpdateVM.Name;
+            existProduct.Price = productUpdateVM.Price;
+            existProduct.Description = productUpdateVM.Description;
+            existProduct.SKU = productUpdateVM.SKU;
+            existProduct.CategoryId = productUpdateVM.CategoryId.Value;
+
+           ;
             await _context.Categories.AddAsync(category);
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
+
+
     }
 }
