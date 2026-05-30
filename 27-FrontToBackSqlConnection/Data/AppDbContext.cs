@@ -1,5 +1,5 @@
 ﻿using _27_FrontToBackSqlConnection.Models;
-using FrontToBack.Models;
+using _27_FrontToBackSqlConnection.Models.Base;
 using Microsoft.EntityFrameworkCore;
 
 namespace _27_FrontToBackSqlConnection.Data

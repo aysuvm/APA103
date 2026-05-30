@@ -1,5 +1,11 @@
 ﻿@model ProductUpdateVM
 
+@{
+    ProductImage mainImage = Model.ProductImages.FirstOrDefault(pi => pi.IsPrimary == true);
+    ProductImage hoverImage = Model.ProductImages.FirstOrDefault(pi => pi.IsPrimary == false);
+    List<ProductImage> addImages = Model.ProductImages.Where(pi => pi.IsPrimary == null).ToList();
+}
+
 <div class="row">
     <div class="col-md-6 grid-margin stretch-card">
         <div class="card">
@@ -79,3 +85,16 @@
 <a asp-action="index" class="btn btn-light">Cancel</a>
 
 </form>
+
+
+@section DeleteImages{
+    <script>
+        var btns = document.querySelectorAll(".custom-btn")
+
+        for(let i=0; i<=btns.length; i++){
+            btns[i].addEventListener("click", ()=>{
+                btns[i].parentElement.remove();
+            })
+        }
+    </script>
+}

@@ -1,4 +1,4 @@
-﻿using FrontToBack.Models;
+﻿using _27_FrontToBackSqlConnection.Models.Base;
 using Furnish.Areas.AdminPanel.Models.Category;
 using Furnish.Data;
 using Furnish.Models;

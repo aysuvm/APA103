@@ -1,7 +1,6 @@
 ﻿using _27_FrontToBackSqlConnection.Data;
-using _27_FrontToBackSqlConnection.Models;
-using _27_FrontToBackSqlConnection.ViewModels;
-using FrontToBack.Areas.AdminPanel.ViewModels.Product;
+using _27_FrontToBackSqlConnection.Models.Base;
+using _27_FrontToBackSqlConnection.ViewModels.Product;
 using FrontToBack.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -56,6 +55,9 @@ namespace FrontToBack.Areas.Controllers
                 await _context.SaveChangesAsync();
 
                 return RedirectToAction(nameof(Index));
+
+
+
 
 
             }
@@ -160,6 +162,31 @@ if (productCreateVM.TagIds is not null)
         ModelState.AddModelError(nameof(ProductCreateVM.TagIds), "Tag does not exist!");
         return View(productCreateVM);
 }
-}
+
+
+foreach (var file in productCreateVM.AdditionalPhotos)
+{
+    if (!file.CheckFileType("image/"))
+    {
+        ModelState.AddModelError(nameof(productCreateVM.MainPhoto), "File type is incorrect!");
+        return View(productCreateVM);
     }
-}
+
+    if (!file.CheckFileSize(FileSize.MB, 1))
+    {
+        ModelState.AddModelError(nameof(productCreateVM.MainPhoto), "File size must be less than 1MB!");
+        return View(productCreateVM);
+    }
+
+
+    TempData["FileInfo"] = info;
+
+    await _context.Products.AddAsync(product);
+    await _context.SaveChangesAsync();
+
+    return RedirectToAction(nameof(Index));
+
+
+
+
+

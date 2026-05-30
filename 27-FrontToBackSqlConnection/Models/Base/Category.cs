@@ -1,0 +1,12 @@
+﻿using _27_FrontToBackSqlConnection.Models.Base;
+using System.ComponentModel;
+
+namespace _27_FrontToBackSqlConnection.Models
+{
+    public class Category : BaseEntity
+    {
+
+        public string Name { get; set; }
+        public List<Product> products { get; set; }
+    }
+}

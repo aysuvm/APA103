@@ -1,5 +1,5 @@
 ﻿using _27_FrontToBackSqlConnection.Data;
-using _27_FrontToBackSqlConnection.Models;
+using _27_FrontToBackSqlConnection.Models.Base;
 using _27_FrontToBackSqlConnection.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 
